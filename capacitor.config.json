@@ -1,0 +1,8 @@
+{
+  "appId": "com.clicker.app",
+  "appName": "CLICKER",
+  "webDir": "public",
+  "server": {
+    "androidScheme": "https"
+  }
+}

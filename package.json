@@ -1,0 +1,31 @@
+{
+  "name": "clickerapk",
+  "version": "1.0.0",
+  "description": "Professional high-security educational video platform for mobile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cap:init": "npx cap init CLICKER com.clicker.app --web-dir public",
+    "cap:add:android": "npx cap add android",
+    "cap:add:ios": "npx cap add ios",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android",
+    "cap:open:ios": "npx cap open ios",
+    "build:android": "npx cap sync && cd android && ./gradlew assembleDebug"
+  },
+  "keywords": [
+    "pwa",
+    "mobile",
+    "educational",
+    "hacker-theme"
+  ],
+  "author": "CLICKER TEAM",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/cli": "^5.7.8",
+    "@capacitor/core": "^5.7.8",
+    "@capacitor/ios": "^5.0.0"
+  },
+  "type": "commonjs"
+}
